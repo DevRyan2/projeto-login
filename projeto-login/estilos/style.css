@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+
+/*
+  paleta de cores
+
+  verde: #49a09d
+
+  lilás: #5f2c82
+
+  
+*/
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -20,7 +33,7 @@ main {
 }
 
 #image {
-  background-image: url(../metal.jpg);
+  background-image: url(..img/metal.jpg);
   height: 200px;
   background-size: cover;
   background-position: left bottom;
