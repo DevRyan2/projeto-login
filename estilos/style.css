@@ -148,16 +148,17 @@ form > input[type='submit'] {
     font-size: 1em;
 
     cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        font-weight 0.3s ease,
+        color 0.3s;
 }
 
 form > input[type='submit']:hover {
     background-color: #367775;
 
     font-weight: bolder;
-
-    transition:
-        background-color 0.3s ease,
-        font-weight 0.3s ease;
 }
 
 form a.botao {
@@ -176,16 +177,18 @@ form a.botao {
     text-align: center;
     font-size: 1em;
     text-decoration: none;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        font-weight 0.3s ease;
 }
 
 form a.botao:hover {
     background-color: #367775;
     color: white;
 
-    transition:
-        background-color 0.3s,
-        color 0.3s;
-    transition-timing-function: ease;
+    font-weight: bolder;
 }
 
 form a.botao > span {
